@@ -1,0 +1,29 @@
+{
+  "name": "qr-login-api",
+  "version": "1.0.0",
+  "description": "API for qr logging",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "qr",
+    "qr-logging",
+    "login",
+    "authentication"
+  ],
+  "author": "Kerso",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-useragent": "^1.0.15",
+    "jsonwebtoken": "^9.0.2",
+    "node-fetch": "^3.3.2",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  }
+}
